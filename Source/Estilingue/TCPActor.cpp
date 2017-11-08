@@ -40,7 +40,7 @@ bool ATCPActor::BeginTCPConnection(const FString & SocketName)
 	//192.168.25.25 162.243.71.157
 	
 
-	FResolveInfo *Resolveinfo = ISocketSubsystem::Get(PLATFORM_SOCKETSUBSYSTEM)->GetHostByName("162.243.71.157");
+	FResolveInfo *Resolveinfo = ISocketSubsystem::Get(PLATFORM_SOCKETSUBSYSTEM)->GetHostByName("104.131.118.48");
 	//wait until resolve is completed	
 	while (!Resolveinfo->IsComplete());
 
